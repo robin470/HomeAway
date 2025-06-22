@@ -1,0 +1,204 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #fff;
+    color: #000;
+}
+
+/* Header Section */
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0ABC98;
+    color: white;
+    padding: 10px 20px;
+    gap: 15px;
+}
+
+.logo {
+    flex-grow: 1;
+}
+
+.logo img {
+    flex-grow: 1;
+    width: 200px;
+    height: auto; /* Maintain proportions */
+    display: block; /* Prevent extra spacing around the image */
+}
+
+header .search-bar {
+    display: flex;
+    flex-grow: 2;
+    /* justify-self: center; */
+}
+
+header .search-bar form {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    width: 100%;
+}
+
+header .search-bar input {
+    width: 100%;
+    min-width: 235px;
+    max-width: 600px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+header .search-bar button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+header .search-bar img {
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+header .header-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-grow: 1;
+    justify-content: end;
+}
+
+header .header-icons img {
+    width: 25px;
+    height: 25px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.title {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.subheading {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+}
+
+.text {
+    font-size: 16px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    align-items: center;
+}
+
+.detail {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+label {
+    font-size: 16px;
+}
+
+/* Property Details */
+.info_column {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex-grow: 1;
+    max-width: 600px;
+}
+
+.hidden {
+    font-size: 25px;
+    font-weight: bold;
+    visibility: hidden;
+}
+
+/* Image */
+.photo img {
+    max-height:200px; /* Adjust as needed */
+    height: auto; /* Maintain proportions */
+    display: block; /* Prevent extra spacing around the image */
+}
+
+/* Payment */
+.label_column {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    flex-grow: 1;
+    max-width: 400px;
+}
+
+.input_column {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex-grow: 1;
+    max-width: 400px;
+}
+
+.pay_column {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    flex-grow: 1;
+    max-width: 400px;
+}
+
+option {
+    font-size: 16px;
+}
+
+.button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #0ABC98;
+    color: #fff;
+    border-radius: 5px;
+    border-color:#0ABC98;
+    width:min-content;
+    cursor: pointer;
+}
+
+

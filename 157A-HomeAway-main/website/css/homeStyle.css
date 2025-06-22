@@ -1,0 +1,140 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #fff;
+    color: #000;
+}
+
+/* Header Section */
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0ABC98;
+    color: white;
+    padding: 10px 20px;
+    gap: 15px;
+}
+
+.logo {
+    flex-grow: 1;
+}
+
+.logo img {
+    flex-grow: 1;
+    width: 200px;
+    height: auto; /* Maintain proportions */
+    display: block; /* Prevent extra spacing around the image */
+}
+
+header .search-bar {
+    display: flex;
+    flex-grow: 2;
+    /* justify-self: center; */
+}
+
+header .search-bar form {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    width: 100%;
+}
+
+header .search-bar input {
+    width: 100%;
+    min-width: 235px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+header .search-bar button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+header .search-bar img {
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+header .header-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-grow: 1;
+    justify-content: end;
+}
+
+header .header-icons img {
+    width: 25px;
+    height: 25px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+.home-listing {
+    background-color: #0ABC98;
+    color: white;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.home-listing h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.home-details {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.home-details img {
+    width: 150px;
+    height: 100px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.home-details .details {
+    flex: 1;
+}
+
+.home-details .details p {
+    margin-bottom: 5px;
+}
+
+.info_column {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    min-width: 400px;
+}
+
+.stars {
+    color: gold;
+    font-size: 18px;
+}
